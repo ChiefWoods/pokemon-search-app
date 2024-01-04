@@ -1,0 +1,201 @@
+:root {
+  --freecodecamp-mirage: #1b1b32;
+  --freecodecamp-purple: #5a01a7;
+  --font-xl: 3rem;
+  --font-m: 2rem;
+  --font-s: 1.5rem;
+  --font-xs: 1.25rem;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: var(--freecodecamp-mirage);
+}
+
+h1 {
+  font-size: var(--font-xl);
+  color: white;
+  margin: 25px;
+}
+
+hr {
+  margin: 25px;
+}
+
+main > div {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+label {
+  font-size: var(--font-s);
+  color: var(--freecodecamp-mirage);
+}
+
+#input-container {
+  display: flex;
+  gap: 15px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid var(--freecodecamp-purple);
+  outline: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: var(--font-s);
+  text-align: center;
+}
+
+button {
+  font-size: var(--font-s);
+  padding: 6px 12px;
+  color: white;
+  background: var(--freecodecamp-purple);
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  gap: 0;
+}
+
+#pokemon-name, #pokemon-id {
+  font-size: var(--font-m);
+  font-weight: bold;
+}
+
+#pokemon-name {
+  display: inline-block;
+}
+
+#weight, #height {
+  font-size: var(--font-s);
+  display: block;
+}
+
+#types {
+  margin-block: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.type {
+  font-size: var(--font-xs);
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.type.bug {
+  background: #719f3f;
+  color: white;
+}
+
+.type.dragon {
+  background: linear-gradient(180deg, rgba(83,164,207,1) 50%, rgba(241,110,87,1) 50%);
+  color: white;
+}
+
+.type.fairy {
+  background: #fdb8e8;
+  color: black;
+}
+
+.type.fire {
+  background: #fd7d24;
+  color: white;
+}
+
+.type.ghost {
+  background: #7b62a3;
+  color: white;
+}
+
+.type.ground {
+  background: linear-gradient(180deg, rgba(247,222,63,1) 50%, rgba(171,152,66,1) 50%);
+  color: black;
+}
+
+.type.normal {
+  background: #a4acaf;
+  color: black;
+}
+
+.type.psychic{
+  background: #f366b9;
+  color: white;
+}
+
+.type.steel {
+  background: #9eb7b8;
+  color: black;
+}
+
+.type.dark {
+  background: #707070;
+  color: white;
+}
+
+.type.electric {
+  background: #eed535;
+  color: black;
+}
+
+.type.fighting {
+  background: #d56723;
+  color: white;
+}
+
+.type.flying {
+  background: linear-gradient(180deg, rgba(61,199,239,1) 50%, rgba(189,185,184,1) 50%);
+  color: black;
+}
+
+.type.grass {
+  background: #9bcc50;
+  color: black;
+}
+
+.type.ice {
+  background: #51c4e7;
+  color: black;
+}
+
+.type.poison {
+  background: #b97fc9;
+  color: white;
+}
+
+.type.rock {
+  background: #a38c21;
+  color: white;
+}
+
+.type.water {
+  background: #4592c4;
+  color: white;
+}
+
+#sprite {
+  width: 150px;
+}
+
+table {
+  font-size: var(--font-s);
+  border-spacing: 5px;
+}
+
+th, td {
+  background: var(--freecodecamp-purple);
+  color: white;
+  padding: 6px;
+  text-align: center;
+}
